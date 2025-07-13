@@ -2,56 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Wedding Theme Design System - Romantic & Elegant Colors */
+/* Wedding Theme Design System - Blue & Purple Elegant Colors */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 45 15% 25%;
+    --foreground: 240 10% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 45 15% 25%;
+    --card-foreground: 240 10% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 45 15% 25%;
+    --popover-foreground: 240 10% 25%;
 
-    /* Romantic sage green primary */
-    --primary: 140 20% 45%;
+    /* Elegant blue primary */
+    --primary: 220 70% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 140 25% 85%;
+    --primary-light: 220 60% 85%;
 
-    /* Soft blush secondary */
-    --secondary: 15 25% 92%;
-    --secondary-foreground: 45 15% 25%;
+    /* Soft purple secondary */
+    --secondary: 270 25% 92%;
+    --secondary-foreground: 240 10% 25%;
 
-    /* Warm neutral muted */
-    --muted: 30 15% 95%;
-    --muted-foreground: 45 10% 55%;
+    /* Cool neutral muted */
+    --muted: 240 15% 95%;
+    --muted-foreground: 240 10% 55%;
 
-    /* Soft cream accent */
-    --accent: 45 30% 97%;
-    --accent-foreground: 45 15% 25%;
+    /* Soft lavender accent */
+    --accent: 270 30% 97%;
+    --accent-foreground: 240 10% 25%;
 
-    /* Romantic rose for highlights */
-    --romantic-rose: 15 45% 75%;
-    --romantic-rose-light: 15 35% 90%;
+    /* Royal purple for highlights */
+    --romantic-rose: 270 60% 65%;
+    --romantic-rose-light: 270 50% 90%;
 
-    /* Eucalyptus green variants */
-    --eucalyptus: 155 25% 65%;
-    --eucalyptus-light: 155 20% 88%;
+    /* Blue variants */
+    --eucalyptus: 220 70% 60%;
+    --eucalyptus-light: 220 60% 88%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 45 15% 88%;
-    --input: 45 15% 88%;
-    --ring: 140 20% 45%;
+    --border: 240 15% 88%;
+    --input: 240 15% 88%;
+    --ring: 220 70% 50%;
 
     /* Wedding-specific design tokens */
     --wedding-hero-overlay: 0 0% 0% / 0.3;
     --wedding-text-shadow: 0 2px 4px hsl(0 0% 0% / 0.5);
-    --wedding-card-shadow: 0 10px 25px hsl(140 20% 45% / 0.1);
-    --wedding-glow: 0 0 30px hsl(140 25% 85% / 0.4);
+    --wedding-card-shadow: 0 10px 25px hsl(220 70% 50% / 0.1);
+    --wedding-glow: 0 0 30px hsl(220 60% 85% / 0.4);
 
     /* Gradients */
     --gradient-romantic: linear-gradient(135deg, hsl(var(--romantic-rose-light)), hsl(var(--eucalyptus-light)));
