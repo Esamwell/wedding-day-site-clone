@@ -22,7 +22,7 @@ const DetailsSection = () => {
                 <Calendar className="w-8 h-8 text-primary" />
                 <div>
                   <h3 className="font-wedding-elegant text-2xl font-semibold text-primary">Data</h3>
-                  <p className="text-xl text-foreground">6 de Novembro de 2026</p>
+                  <p className="text-xl text-foreground">7 de Novembro de 2026</p>
                 </div>
               </div>
             </Card>
@@ -32,8 +32,8 @@ const DetailsSection = () => {
                 <Clock className="w-8 h-8 text-primary" />
                 <div>
                   <h3 className="font-wedding-elegant text-2xl font-semibold text-primary">Horário</h3>
-                  <p className="text-xl text-foreground">Cerimônia às 16h00</p>
-                  <p className="text-lg text-muted-foreground">Festa às 18h30</p>
+                  <p className="text-xl text-foreground">Cerimônia às 17h30</p>
+                  <p className="text-lg text-muted-foreground">Festa às 19h30</p>
                 </div>
               </div>
             </Card>
