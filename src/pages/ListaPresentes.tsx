@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
+import Header from "@/components/Header";
 
 interface PresenteItem {
   id: string;
@@ -111,22 +112,25 @@ const ListaPresentes = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-accent to-secondary">
-      {/* Header */}
-      <div className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-40">
-        <div className="container mx-auto px-4 py-6">
-          <div className="text-center">
-            <div className="flex items-center justify-center gap-3 mb-2">
-              <Gift className="w-8 h-8 text-primary" />
-              <h1 className="text-4xl font-wedding-elegant text-primary">Lista de Presentes</h1>
-              <Heart className="w-6 h-6 text-wedding-rose" />
+    <div className="min-h-screen">
+      <Header />
+      
+      <div className="min-h-screen bg-gradient-to-br from-accent to-secondary">
+        {/* Title Section */}
+        <div className="bg-background/95 backdrop-blur-sm border-b border-border pt-20">
+          <div className="container mx-auto px-4 py-6">
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-3 mb-2">
+                <Gift className="w-8 h-8 text-primary" />
+                <h1 className="text-4xl font-wedding-elegant text-primary">Lista de Presentes</h1>
+                <Heart className="w-6 h-6 text-wedding-rose" />
+              </div>
+              <p className="text-muted-foreground text-lg">
+                Escolha um presente especial para Emily & Carlos
+              </p>
             </div>
-            <p className="text-muted-foreground text-lg">
-              Escolha um presente especial para Emily & Carlos
-            </p>
           </div>
         </div>
-      </div>
 
       <div className="container mx-auto px-4 py-8">
         {/* Filtros */}
@@ -258,6 +262,7 @@ const ListaPresentes = () => {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
