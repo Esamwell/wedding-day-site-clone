@@ -23,14 +23,17 @@ const Footer = () => {
         <div className="space-y-4 text-sm opacity-90">
           <div className="flex items-center justify-center gap-2">
             <Heart className="w-4 h-4 text-wedding-rose" />
-            <span>Feito com amor para nosso casamento</span>
+            <span>Feito com amor para celebrar nossa união</span>
             <Heart className="w-4 h-4 text-wedding-rose" />
           </div>
-          
           <div className="space-y-2">
-            <p><strong>Obrigado por partilhar o nosso dia!</strong> | <strong>Traga todo seu amor e sorriso</strong></p>
-            <p><strong>Quem somos?</strong> | <strong>Definições de cookies</strong></p>
-            <p>Feito com amor ❤️ | 💒 <strong>Erico Samuel e Catarina Borja</strong></p>
+            <p>Obrigado por fazer parte da nossa história!</p>
+            <p>Dúvidas? Fale conosco | Política de privacidade</p>
+            <p className="flex items-center justify-center gap-1">
+              <span>Com carinho,</span>
+              <span role="img" aria-label="igreja">💒</span>
+              <strong>Erico & Catarina</strong>
+            </p>
           </div>
         </div>
 
