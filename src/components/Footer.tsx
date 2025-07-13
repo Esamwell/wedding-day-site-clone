@@ -28,9 +28,9 @@ const Footer = () => {
           </div>
           
           <div className="space-y-2">
-            <p><strong>Meu Site do Casamento</strong> | <strong>Organize seu casamento</strong></p>
+            <p><strong>Obrigado por partilhar o nosso dia!</strong> | <strong>Traga todo seu amor e sorriso</strong></p>
             <p><strong>Quem somos?</strong> | <strong>Definições de cookies</strong></p>
-            <p>Feito com amor ❤️ | 💒 <strong>casamento.com.br</strong></p>
+            <p>Feito com amor ❤️ | 💒 <strong>Erico Samuel e Catarina Borja</strong></p>
           </div>
         </div>
 
