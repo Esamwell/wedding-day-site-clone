@@ -16,9 +16,9 @@
     --popover-foreground: 240 10% 25%;
 
     /* Elegant blue primary */
-    --primary: 220 70% 50%;
+    --primary: 217 54% 34%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 220 60% 85%;
+    --primary-light: 217 54% 80%;
 
     /* Soft purple secondary */
     --secondary: 270 25% 92%;
@@ -45,7 +45,7 @@
 
     --border: 240 15% 88%;
     --input: 240 15% 88%;
-    --ring: 220 70% 50%;
+    --ring: 217 54% 34%;
 
     /* Wedding-specific design tokens */
     --wedding-hero-overlay: 0 0% 0% / 0.3;
