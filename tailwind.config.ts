@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +52,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				wedding: {
+					rose: 'hsl(var(--romantic-rose))',
+					'rose-light': 'hsl(var(--romantic-rose-light))',
+					eucalyptus: 'hsl(var(--eucalyptus))',
+					'eucalyptus-light': 'hsl(var(--eucalyptus-light))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -89,6 +96,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				'wedding-script': ['Dancing Script', 'cursive'],
+				'wedding-elegant': ['Playfair Display', 'serif'],
 			}
 		}
 	},
