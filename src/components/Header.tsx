@@ -1,7 +1,10 @@
-import { Heart, Calendar, MapPin, Users } from "lucide-react";
+import { Heart, Calendar, MapPin, Users, Gift } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
+  const navigate = useNavigate();
+  
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -46,9 +49,25 @@ const Header = () => {
           >
             Confirmar Presença
           </Button>
+          <Button 
+            variant="ghost" 
+            onClick={() => navigate('/lista-presentes')}
+            className="text-foreground hover:text-primary"
+          >
+            Lista de Presentes
+          </Button>
         </nav>
 
         <div className="flex items-center gap-4">
+          <Button 
+            variant="outline" 
+            size="sm"
+            onClick={() => navigate('/lista-presentes')}
+            className="border-primary text-primary hover:bg-primary-light"
+          >
+            <Gift className="w-4 h-4 mr-2" />
+            Presentes
+          </Button>
           <Button 
             variant="outline" 
             size="sm"
