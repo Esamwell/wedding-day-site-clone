@@ -24,10 +24,15 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <button
+          className="flex items-center gap-2 focus:outline-none"
+          onClick={() => navigate('/')}
+          aria-label="Ir para o início"
+          style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}
+        >
           <Heart className="w-6 h-6 text-wedding-rose" />
           <span className="font-wedding-script text-2xl text-primary">E & C</span>
-        </div>
+        </button>
         
         <nav className="hidden md:flex items-center gap-8">
           <Button 
