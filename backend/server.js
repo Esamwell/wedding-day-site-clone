@@ -32,9 +32,9 @@ app.post('/create_preference', async (req, res) => {
         },
       ],
       back_urls: {
-        success: 'http://localhost:5173/sucesso',
-        failure: 'http://localhost:5173/erro',
-        pending: 'http://localhost:5173/erro',
+        success: 'https://ericosamuelecatarina.vercel.app/sucesso',
+        failure: 'https://ericosamuelecatarina.vercel.app/erro',
+        pending: 'https://ericosamuelecatarina.vercel.app/erro',
       },
       auto_return: 'approved',
     };
