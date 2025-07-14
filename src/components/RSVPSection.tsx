@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Heart, Send, Users } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from 'emailjs-com';
 
 const RSVPSection = () => {
   const [formData, setFormData] = useState({
@@ -17,7 +18,7 @@ const RSVPSection = () => {
   });
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!formData.name || !formData.email || !formData.attending) {
@@ -29,19 +30,37 @@ const RSVPSection = () => {
       return;
     }
 
-    toast({
-      title: "Confirmação enviada!",
-      description: "Obrigado por confirmar sua presença. Estamos ansiosos para celebrar com você!",
-    });
-
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      guests: "1",
-      message: "",
-      attending: ""
-    });
+    try {
+      await emailjs.send(
+        'service_jq3xxbi',
+        'template_bqcxbne',
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          guests: formData.guests,
+          message: formData.message,
+          attending: formData.attending === 'sim' ? 'Sim, estarei lá!' : 'Não poderei comparecer',
+        },
+        'CVCB4o9m0phWz9bMZ'
+      );
+      toast({
+        title: "Confirmação enviada!",
+        description: "Obrigado por confirmar sua presença. Estamos ansiosos para celebrar com você!",
+      });
+      setFormData({
+        name: "",
+        email: "",
+        guests: "1",
+        message: "",
+        attending: ""
+      });
+    } catch (error) {
+      toast({
+        title: "Erro ao enviar confirmação",
+        description: "Tente novamente mais tarde.",
+        variant: "destructive"
+      });
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
