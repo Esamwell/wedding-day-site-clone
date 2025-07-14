@@ -1,8 +1,36 @@
 import { Calendar, MapPin, Heart } from "lucide-react";
+import { useEffect, useState } from "react";
 import heroImage from "@/assets/hero-couple.jpg";
 import botanicalDecoration from "@/assets/botanical-decoration.png";
 
 const HeroSection = () => {
+  // Data alvo: 7 de novembro de 2026, 00:00:00
+  const targetDate = new Date("2026-11-07T00:00:00-03:00").getTime();
+  const [timeLeft, setTimeLeft] = useState({
+    dias: 0,
+    horas: 0,
+    minutos: 0,
+    segundos: 0
+  });
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+      if (distance > 0) {
+        const dias = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const horas = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutos = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const segundos = Math.floor((distance % (1000 * 60)) / 1000);
+        setTimeLeft({ dias, horas, minutos, segundos });
+      } else {
+        setTimeLeft({ dias: 0, horas: 0, minutos: 0, segundos: 0 });
+        clearInterval(interval);
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [targetDate]);
+
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -48,11 +76,22 @@ const HeroSection = () => {
         </div>
 
         <div className="space-y-6 mb-12">
-          <div className="flex items-center justify-center gap-3 text-xl md:text-2xl">
-            <Calendar className="w-6 h-6 text-wedding-rose" />
-            <span className="font-wedding-elegant font-semibold">6 de Novembro, 2026</span>
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-3 text-xl md:text-2xl">
+              <Calendar className="w-6 h-6 text-wedding-rose" />
+              <span className="font-wedding-elegant font-semibold">Faltam:</span>
+            </div>
+            <div className="flex items-center justify-center gap-4 text-2xl md:text-3xl font-bold font-wedding-elegant bg-black/30 rounded-xl px-6 py-2 mt-2">
+              <span>{timeLeft.dias}d</span>
+              <span>:</span>
+              <span>{String(timeLeft.horas).padStart(2, '0')}h</span>
+              <span>:</span>
+              <span>{String(timeLeft.minutos).padStart(2, '0')}m</span>
+              <span>:</span>
+              <span>{String(timeLeft.segundos).padStart(2, '0')}s</span>
+            </div>
+            <span className="text-base md:text-lg font-normal opacity-80 mt-1">para a cerimônia!</span>
           </div>
-          
           <div className="flex items-center justify-center gap-3 text-xl md:text-2xl">
             <MapPin className="w-6 h-6 text-wedding-rose" />
             <span className="font-wedding-elegant">Salvador, Bahia</span>
