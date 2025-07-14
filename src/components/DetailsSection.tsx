@@ -62,7 +62,7 @@ const DetailsSection = () => {
                 <p className="font-wedding-script text-3xl mb-2">
                   Erico Samuel Monteiro & Catarina Borja
                 </p>
-                <p className="text-lg opacity-90">6 Novembro 2026</p>
+                <p className="text-lg opacity-90">7 de Novembro 2026</p>
               </div>
             </div>
           </div>
