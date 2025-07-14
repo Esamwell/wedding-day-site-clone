@@ -155,24 +155,6 @@ export const gifts: Gift[] = [
     comprado: false
   },
   {
-    id: "999",
-    nome: "Presente de Teste",
-    descricao: "Presente para testar o fluxo de pagamento.",
-    preco: 5.00,
-    categoria: "Teste",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "1000",
-    nome: "Presente de Teste 10 centavos",
-    descricao: "Presente para testar pagamentos de valor mínimo.",
-    preco: 0.10,
-    categoria: "Teste",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
     id: "2001",
     nome: "Cota Lua de Mel - R$ 80",
     descricao: "Ajude na nossa viagem dos sonhos!",
