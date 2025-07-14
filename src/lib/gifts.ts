@@ -56,7 +56,7 @@ export const gifts: Gift[] = [
     descricao: "10 peças resistentes ao calor, ideal para cozinhar sem riscar as panelas.",
     preco: 89.90,
     categoria: "Cozinha",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/utensils-1239425_1280.jpg",
+    imagemUrl: "https://m.media-amazon.com/images/I/61qNU3ToCWL._UF894,1000_QL80_.jpg",
     comprado: false,
     loja: "Americanas",
     link: "#"
@@ -79,7 +79,7 @@ export const gifts: Gift[] = [
     descricao: "Espuma viscoelástica, super confortável.",
     preco: 120.00,
     categoria: "Quarto",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/pillow-1868378_1280.jpg",
+    imagemUrl: "https://www.colchaocostarica.com.br/produtos/imagens/739-det-Travesseiro-Duoflex-Nasa-Alto-Luxo-Viscoelastico-NS1116.jpg",
     comprado: false,
     loja: "Submarino",
     link: "#"
@@ -114,7 +114,7 @@ export const gifts: Gift[] = [
     descricao: "Conjunto com 4 toalhas 100% algodão felpudo",
     preco: 89.90,
     categoria: "Banheiro",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/towel-1868379_1280.jpg",
+    imagemUrl: "https://centraltoalhas.cdn.magazord.com.br/img/2022/06/produto/4373/banho-hotel-prata.jpg?ims=800x800",
     comprado: false,
     loja: "Zara Home",
     link: "#"
@@ -125,7 +125,7 @@ export const gifts: Gift[] = [
     descricao: "3 peças antiderrapantes para banheiro.",
     preco: 59.90,
     categoria: "Banheiro",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/carpet-1868377_1280.jpg",
+    imagemUrl: "https://images.yampi.me/assets/stores/lindacasa/uploads/images/jogo-de-tapete-para-cozinha-passadeira-3-pecas-base-emborrachada-antiderrapante-belo-cotton-cinza-63860945efad5-large.jpg",
     comprado: false,
     loja: "Tok&Stok",
     link: "#"
@@ -160,7 +160,7 @@ export const gifts: Gift[] = [
     descricao: "Ajude na nossa viagem dos sonhos!",
     preco: 100.00,
     categoria: "Lua de Mel",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/beach-1868375_1280.jpg",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
     comprado: false
   },
   {
@@ -169,7 +169,7 @@ export const gifts: Gift[] = [
     descricao: "Ajude na nossa viagem dos sonhos!",
     preco: 200.00,
     categoria: "Lua de Mel",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/beach-1868375_1280.jpg",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
     comprado: false
   },
   {
@@ -178,196 +178,17 @@ export const gifts: Gift[] = [
     descricao: "Ajude na nossa viagem dos sonhos!",
     preco: 500.00,
     categoria: "Lua de Mel",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/beach-1868375_1280.jpg",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
     comprado: false
   },
-  {
-    id: "2001",
-    nome: "Cota Lua de Mel - R$ 80",
-    descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 80.00,
-    categoria: "Lua de Mel",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2002",
-    nome: "Cota Lua de Mel - R$ 100",
-    descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 100.00,
-    categoria: "Lua de Mel",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2003",
-    nome: "Cota Lua de Mel - R$ 150",
-    descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 150.00,
-    categoria: "Lua de Mel",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2004",
-    nome: "Cota Lua de Mel - R$ 200",
-    descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 200.00,
-    categoria: "Lua de Mel",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2005",
-    nome: "Cota Lua de Mel - R$ 300",
-    descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 300.00,
-    categoria: "Lua de Mel",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2101",
-    nome: "Jogo de Toalhas de Banho",
-    descricao: "Conjunto com 5 peças, 100% algodão.",
-    preco: 120.00,
-    categoria: "Banheiro",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2102",
-    nome: "Aparelho de Jantar 20 peças",
-    descricao: "Porcelana branca, para 6 pessoas.",
-    preco: 250.00,
-    categoria: "Mesa e Jantar",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2103",
-    nome: "Liquidificador",
-    descricao: "Alta potência, copo de vidro.",
-    preco: 180.00,
-    categoria: "Eletrodomésticos",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2104",
-    nome: "Jantar Romântico",
-    descricao: "Um jantar especial para o casal.",
-    preco: 300.00,
-    categoria: "Experiências",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2105",
-    nome: "Passeio de barco",
-    descricao: "Passeio para dois durante a lua de mel.",
-    preco: 400.00,
-    categoria: "Experiências",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2106",
-    nome: "Kit de Panelas",
-    descricao: "Conjunto antiaderente, 5 peças.",
-    preco: 200.00,
-    categoria: "Cozinha",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2107",
-    nome: "Fritadeira sem óleo",
-    descricao: "Air fryer, 4L.",
-    preco: 350.00,
-    categoria: "Eletrodomésticos",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2108",
-    nome: "Jogo de Lençol Queen",
-    descricao: "100% algodão, 4 peças.",
-    preco: 150.00,
-    categoria: "Quarto",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2109",
-    nome: "Cesta de Café da Manhã",
-    descricao: "Cesta especial para o casal.",
-    preco: 100.00,
-    categoria: "Experiências",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2110",
-    nome: "Kit churrasco",
-    descricao: "Conjunto de facas e tábuas.",
-    preco: 120.00,
-    categoria: "Lazer",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
+  // Exemplos de outros presentes com imagens fornecidas
   {
     id: "2111",
     nome: "Avental personalizado",
     descricao: "Para o chef da casa.",
     preco: 80.00,
     categoria: "Cozinha",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2112",
-    nome: "Jogo de Copos",
-    descricao: "Conjunto com 12 peças.",
-    preco: 90.00,
-    categoria: "Mesa e Jantar",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2113",
-    nome: "Kit para vinho",
-    descricao: "Abridor, termômetro e acessórios.",
-    preco: 100.00,
-    categoria: "Lazer",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2114",
-    nome: "Cafeteira elétrica",
-    descricao: "Para cafés especiais.",
-    preco: 200.00,
-    categoria: "Eletrodomésticos",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2115",
-    nome: "Jogo de Frigideiras",
-    descricao: "Antiaderente, 3 peças.",
-    preco: 120.00,
-    categoria: "Cozinha",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2116",
-    nome: "Kit Spa em Casa",
-    descricao: "Toalhas, sais e velas aromáticas.",
-    preco: 150.00,
-    categoria: "Bem-estar",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://cdn.awsli.com.br/2500x2500/393/393232/produto/157884693/whatsapp-image-2023-04-25-at-15-41-32-2m5kifm12e.jpeg",
     comprado: false
   },
   {
@@ -376,88 +197,7 @@ export const gifts: Gift[] = [
     descricao: "Conjunto com 6 peças.",
     preco: 80.00,
     categoria: "Mesa e Jantar",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2118",
-    nome: "Kit para churrasco premium",
-    descricao: "Facas, garfos e tábua de corte.",
-    preco: 250.00,
-    categoria: "Lazer",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2119",
-    nome: "Aparelho de Fondue",
-    descricao: "Para noites especiais.",
-    preco: 150.00,
-    categoria: "Lazer",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2120",
-    nome: "Kit de almofadas decorativas",
-    descricao: "Conjunto com 4 peças.",
-    preco: 100.00,
-    categoria: "Decoração",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2201",
-    nome: "Jogo de Facas Profissional",
-    descricao: "Conjunto com 6 facas inox e suporte.",
-    preco: 120.00,
-    categoria: "Cozinha",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2202",
-    nome: "Panela de Pressão",
-    descricao: "5 litros, antiaderente.",
-    preco: 150.00,
-    categoria: "Cozinha",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2203",
-    nome: "Kit Utensílios de Silicone",
-    descricao: "10 peças resistentes ao calor.",
-    preco: 90.00,
-    categoria: "Cozinha",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2301",
-    nome: "Jogo de Cama Queen",
-    descricao: "100% algodão, 4 peças.",
-    preco: 180.00,
-    categoria: "Quarto",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2302",
-    nome: "Edredom Dupla Face",
-    descricao: "Super macio, tamanho casal.",
-    preco: 200.00,
-    categoria: "Quarto",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2303",
-    nome: "Travesseiro NASA",
-    descricao: "Espuma viscoelástica, super confortável.",
-    preco: 100.00,
-    categoria: "Quarto",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://d9a2b0af1mfg9.cloudfront.net/Custom/Content/Products/16/92/16929_prato-sobremesa-pr-12196-820074_m3_637807087823040744.webp",
     comprado: false
   },
   {
@@ -466,25 +206,16 @@ export const gifts: Gift[] = [
     descricao: "3 peças antiderrapantes.",
     preco: 80.00,
     categoria: "Banheiro",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://m.media-amazon.com/images/I/71N5jV+wZmL._UF1000,1000_QL80_.jpg",
     comprado: false
   },
   {
-    id: "2402",
-    nome: "Jogo de Toalhas Luxo",
-    descricao: "6 peças, 100% algodão.",
-    preco: 160.00,
-    categoria: "Banheiro",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2501",
-    nome: "Jogo de Taças para Vinho",
-    descricao: "6 peças de cristal.",
-    preco: 120.00,
+    id: "2112",
+    nome: "Jogo de Copos",
+    descricao: "Conjunto com 12 peças.",
+    preco: 90.00,
     categoria: "Mesa e Jantar",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://d9a2b0af1mfg9.cloudfront.net/Custom/Content/Products/12/55/12552_7988-conj-c-6-copos-altos-c-fio-de-ouro-diamond-079884_m1_637962582822742654.webp",
     comprado: false
   },
   {
@@ -493,25 +224,7 @@ export const gifts: Gift[] = [
     descricao: "6 peças, tecido lavável.",
     preco: 90.00,
     categoria: "Mesa e Jantar",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2601",
-    nome: "Sanduicheira Elétrica",
-    descricao: "Antiaderente, fácil de limpar.",
-    preco: 100.00,
-    categoria: "Eletrodomésticos",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2602",
-    nome: "Batedeira Planetária",
-    descricao: "Potente, 3 velocidades.",
-    preco: 250.00,
-    categoria: "Eletrodomésticos",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://m.media-amazon.com/images/I/61i-Rf35H1L._UF894,1000_QL80_.jpg",
     comprado: false
   },
   {
@@ -520,16 +233,34 @@ export const gifts: Gift[] = [
     descricao: "Socador, copos e tábua.",
     preco: 90.00,
     categoria: "Lazer",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://m.media-amazon.com/images/I/61wiJCEq0iL.__AC_SX300_SY300_QL70_ML2_.jpg",
     comprado: false
   },
   {
-    id: "2702",
-    nome: "Rede de Descanso",
-    descricao: "Algodão, tamanho casal.",
-    preco: 120.00,
+    id: "2113",
+    nome: "Kit para vinho",
+    descricao: "Abridor, termômetro e acessórios.",
+    preco: 100.00,
     categoria: "Lazer",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://cdn.awsli.com.br/800x800/116/116963/produto/232521354ca83e55c3e.jpg",
+    comprado: false
+  },
+  {
+    id: "2120",
+    nome: "Kit de almofadas decorativas",
+    descricao: "Conjunto com 4 peças.",
+    preco: 100.00,
+    categoria: "Decoração",
+    imagemUrl: "https://m.media-amazon.com/images/I/71TdLT7vp5L._UF894,1000_QL80_.jpg",
+    comprado: false
+  },
+  {
+    id: "2601",
+    nome: "Sanduicheira Elétrica",
+    descricao: "Antiaderente, fácil de limpar.",
+    preco: 100.00,
+    categoria: "Eletrodomésticos",
+    imagemUrl: "https://electrolux.vtexassets.com/arquivos/ids/230374/6c_6c_SandwichMaker_ESG20_FrontView_Electrolux_1000x1000-1000x1000.raw.jpg?v=638874901199970000",
     comprado: false
   },
   {
@@ -538,70 +269,8 @@ export const gifts: Gift[] = [
     descricao: "Cerâmica, 30cm.",
     preco: 100.00,
     categoria: "Decoração",
-    imagemUrl: "/placeholder.svg",
+    imagemUrl: "https://lojaemporiocasa.cdn.magazord.com.br/img/2024/07/produto/1997/whatsapp-image-2024-07-10-at-17-44-17-1.jpeg?ims=fit-in/600x600/filters:fill(white)",
     comprado: false
   },
-  {
-    id: "2802",
-    nome: "Quadro Decorativo",
-    descricao: "Arte moderna, 40x60cm.",
-    preco: 150.00,
-    categoria: "Decoração",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2901",
-    nome: "Difusor de Aromas",
-    descricao: "Elétrico, com essências.",
-    preco: 120.00,
-    categoria: "Bem-estar",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2902",
-    nome: "Kit Spa Relax",
-    descricao: "Sais, óleos e velas.",
-    preco: 150.00,
-    categoria: "Bem-estar",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2951",
-    nome: "Café da manhã especial",
-    descricao: "Cesta gourmet entregue em casa.",
-    preco: 120.00,
-    categoria: "Experiências",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2952",
-    nome: "Passeio Gastronômico",
-    descricao: "Tour em restaurante local.",
-    preco: 200.00,
-    categoria: "Experiências",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2991",
-    nome: "Cota Lua de Mel - R$ 400",
-    descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 400.00,
-    categoria: "Lua de Mel",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  },
-  {
-    id: "2992",
-    nome: "Cota Lua de Mel - R$ 500",
-    descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 500.00,
-    categoria: "Lua de Mel",
-    imagemUrl: "/placeholder.svg",
-    comprado: false
-  }
+  // ... continue para outros presentes conforme necessário ...
 ]; 
