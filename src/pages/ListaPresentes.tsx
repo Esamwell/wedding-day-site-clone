@@ -22,7 +22,7 @@ const ListaPresentes = () => {
 
   const handleComprarPresente = async (presente: GiftType) => {
     try {
-      const response = await fetch('http://localhost:3001/create_preference', {
+      const response = await fetch('/api/create_preference', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ nome: presente.nome, preco: presente.preco, id: presente.id }),
