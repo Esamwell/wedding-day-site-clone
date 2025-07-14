@@ -153,5 +153,14 @@ export const gifts: Gift[] = [
     categoria: "Lua de Mel",
     imagemUrl: "/api/placeholder/300/300",
     comprado: false
+  },
+  {
+    id: "999",
+    nome: "Presente de Teste",
+    descricao: "Presente para testar o fluxo de pagamento.",
+    preco: 5.00,
+    categoria: "Teste",
+    imagemUrl: "/placeholder.svg",
+    comprado: false
   }
 ]; 
