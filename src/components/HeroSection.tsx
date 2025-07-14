@@ -81,16 +81,32 @@ const HeroSection = () => {
               <Calendar className="w-6 h-6 text-wedding-rose" />
               <span className="font-wedding-elegant font-semibold">Faltam:</span>
             </div>
-            <div className="flex items-center justify-center gap-4 text-2xl md:text-3xl font-bold font-wedding-elegant bg-black/30 rounded-xl px-6 py-2 mt-2">
-              <span>{timeLeft.dias}d</span>
-              <span>:</span>
-              <span>{String(timeLeft.horas).padStart(2, '0')}h</span>
-              <span>:</span>
-              <span>{String(timeLeft.minutos).padStart(2, '0')}m</span>
-              <span>:</span>
-              <span>{String(timeLeft.segundos).padStart(2, '0')}s</span>
+            <div className="flex items-center justify-center gap-2 md:gap-4 bg-black/20 rounded-2xl px-6 py-4 mt-2 shadow-lg">
+              {/* Dias */}
+              <div className="flex flex-col items-center">
+                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{timeLeft.dias}</span>
+                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">dias</span>
+              </div>
+              <span className="text-2xl md:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
+              {/* Horas */}
+              <div className="flex flex-col items-center">
+                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{String(timeLeft.horas).padStart(2, '0')}</span>
+                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">horas</span>
+              </div>
+              <span className="text-2xl md:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
+              {/* Minutos */}
+              <div className="flex flex-col items-center">
+                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{String(timeLeft.minutos).padStart(2, '0')}</span>
+                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">min</span>
+              </div>
+              <span className="text-2xl md:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
+              {/* Segundos */}
+              <div className="flex flex-col items-center">
+                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{String(timeLeft.segundos).padStart(2, '0')}</span>
+                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">seg</span>
+              </div>
             </div>
-            <span className="text-base md:text-lg font-normal opacity-80 mt-1">para a cerimônia!</span>
+            <span className="text-base md:text-lg font-normal opacity-80 mt-3">para a cerimônia!</span>
           </div>
           <div className="flex items-center justify-center gap-3 text-xl md:text-2xl">
             <MapPin className="w-6 h-6 text-wedding-rose" />
