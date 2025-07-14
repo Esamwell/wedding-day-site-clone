@@ -205,7 +205,7 @@ const ListaPresentes = () => {
               <Heart className="w-8 h-8 text-wedding-rose mx-auto mb-2" />
               <h4 className="font-semibold mb-2">Recebemos com amor</h4>
               <p className="text-sm text-muted-foreground">
-                O presente será entregue diretamente em nossa casa
+                Obrigado por escolher um presente para nós!
               </p>
             </div>
           </div>
@@ -244,7 +244,7 @@ const ListaPresentes = () => {
               <Heart className="w-8 h-8 text-wedding-rose mx-auto mb-2" />
               <h4 className="font-semibold mb-2">Recebemos com amor</h4>
               <p className="text-sm text-muted-foreground">
-                O presente será entregue diretamente em nossa casa
+                Obrigado por escolher um presente para nós!
               </p>
             </div>
           </div>
