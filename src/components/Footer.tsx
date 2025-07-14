@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex items-center justify-center gap-6 text-lg">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5" />
-              <span>6 de Novembro, 2026</span>
+              <span>7 de Novembro, 2026</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5" />
