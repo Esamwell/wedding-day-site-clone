@@ -1,4 +1,4 @@
-const mercadopago = require('mercadopago');
+import mercadopago from 'mercadopago';
 
 const client = new mercadopago.MercadoPagoConfig({
   accessToken: process.env.MP_ACCESS_TOKEN // Use variável de ambiente no Vercel!
