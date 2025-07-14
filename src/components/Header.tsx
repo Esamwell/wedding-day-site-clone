@@ -1,14 +1,23 @@
 import { Heart, Calendar, MapPin, Users, Gift } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleMenuClick = (sectionId: string) => {
+    if (location.pathname !== "/") {
+      navigate(`/?section=${sectionId}`);
+    } else {
+      scrollToSection(sectionId);
     }
   };
 
@@ -23,28 +32,28 @@ const Header = () => {
         <nav className="hidden md:flex items-center gap-8">
           <Button 
             variant="ghost" 
-            onClick={() => scrollToSection('inicio')}
+            onClick={() => handleMenuClick('inicio')}
             className="text-foreground hover:text-primary"
           >
             Início
           </Button>
           <Button 
             variant="ghost" 
-            onClick={() => scrollToSection('sobre')}
+            onClick={() => handleMenuClick('sobre')}
             className="text-foreground hover:text-primary"
           >
             Nossa História
           </Button>
           <Button 
             variant="ghost" 
-            onClick={() => scrollToSection('detalhes')}
+            onClick={() => handleMenuClick('detalhes')}
             className="text-foreground hover:text-primary"
           >
             Detalhes
           </Button>
           <Button 
             variant="ghost" 
-            onClick={() => scrollToSection('presenca')}
+            onClick={() => handleMenuClick('presenca')}
             className="text-foreground hover:text-primary"
           >
             Confirmar Presença
