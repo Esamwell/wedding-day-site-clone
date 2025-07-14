@@ -156,9 +156,9 @@ export const gifts: Gift[] = [
   // Lua de Mel (Cotas)
   {
     id: "101",
-    nome: "Cota Lua de Mel - R$100",
+    nome: "Cota Lua de Mel - R$150",
     descricao: "Ajude na nossa viagem dos sonhos!",
-    preco: 100.00,
+    preco: 150.00,
     categoria: "Lua de Mel",
     imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
     comprado: false
@@ -174,9 +174,72 @@ export const gifts: Gift[] = [
   },
   {
     id: "103",
+    nome: "Cota Lua de Mel - R$250",
+    descricao: "Ajude na nossa viagem dos sonhos!",
+    preco: 250.00,
+    categoria: "Lua de Mel",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
+    comprado: false
+  },
+  {
+    id: "104",
+    nome: "Cota Lua de Mel - R$300",
+    descricao: "Ajude na nossa viagem dos sonhos!",
+    preco: 300.00,
+    categoria: "Lua de Mel",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
+    comprado: false
+  },
+  {
+    id: "105",
+    nome: "Cota Lua de Mel - R$350",
+    descricao: "Ajude na nossa viagem dos sonhos!",
+    preco: 350.00,
+    categoria: "Lua de Mel",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
+    comprado: false
+  },
+  {
+    id: "106",
+    nome: "Cota Lua de Mel - R$400",
+    descricao: "Ajude na nossa viagem dos sonhos!",
+    preco: 400.00,
+    categoria: "Lua de Mel",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
+    comprado: false
+  },
+  {
+    id: "107",
     nome: "Cota Lua de Mel - R$500",
     descricao: "Ajude na nossa viagem dos sonhos!",
     preco: 500.00,
+    categoria: "Lua de Mel",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
+    comprado: false
+  },
+  {
+    id: "108",
+    nome: "Cota Lua de Mel - R$600",
+    descricao: "Ajude na nossa viagem dos sonhos!",
+    preco: 600.00,
+    categoria: "Lua de Mel",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
+    comprado: false
+  },
+  {
+    id: "109",
+    nome: "Cota Lua de Mel - R$800",
+    descricao: "Ajude na nossa viagem dos sonhos!",
+    preco: 800.00,
+    categoria: "Lua de Mel",
+    imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
+    comprado: false
+  },
+  {
+    id: "110",
+    nome: "Cota Lua de Mel - R$1000",
+    descricao: "Ajude na nossa viagem dos sonhos!",
+    preco: 1000.00,
     categoria: "Lua de Mel",
     imagemUrl: "https://virtualjoias.com/media/wysiwyg/virtualjoias-0902-Lugares-para-passar-lua-de-mel-imagem1-blog.jpg",
     comprado: false
@@ -378,6 +441,33 @@ export const gifts: Gift[] = [
     preco: 130.00,
     categoria: "Mesa e Jantar",
     imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/fondue-1957683_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3301",
+    nome: "Alexa Echo Dot (4ª geração)",
+    descricao: "Assistente virtual inteligente com controle por voz.",
+    preco: 350.00,
+    categoria: "Eletrodomésticos",
+    imagemUrl: "https://cdn.pixabay.com/photo/2020/11/13/09/37/alexa-5738856_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3302",
+    nome: "Filtro de Água Purificador",
+    descricao: "Purificador de água de mesa, com refil.",
+    preco: 220.00,
+    categoria: "Cozinha",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/water-filter-1957684_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3303",
+    nome: "Fechadura Eletrônica Digital",
+    descricao: "Fechadura inteligente com senha e biometria.",
+    preco: 600.00,
+    categoria: "Bem-estar",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/door-lock-1957685_1280.jpg",
     comprado: false
   }
 ]; 
