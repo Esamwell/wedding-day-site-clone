@@ -67,7 +67,10 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
         <div className="mb-8 flex flex-col items-center justify-center gap-2 md:gap-4">
-          <h1 className="font-wedding-script text-5xl md:text-7xl lg:text-8xl mb-2 md:mb-4 drop-shadow-lg leading-tight">
+          <h1
+            className="font-wedding-script text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl max-w-full md:max-w-5xl mx-auto mb-2 md:mb-4 drop-shadow-lg leading-tight break-words px-2"
+            style={{ wordBreak: 'break-word', hyphens: 'auto', lineHeight: 1.1 }}
+          >
             Erico Samuel & Catarina
           </h1>
           <p className="font-wedding-elegant text-lg md:text-2xl opacity-90 mb-2 md:mb-4">
