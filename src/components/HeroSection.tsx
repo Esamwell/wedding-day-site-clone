@@ -66,59 +66,59 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-        <div className="mb-8">
-          <h1 className="font-wedding-script text-6xl md:text-8xl mb-4 drop-shadow-lg">
+        <div className="mb-8 flex flex-col items-center justify-center gap-2 md:gap-4">
+          <h1 className="font-wedding-script text-5xl md:text-7xl lg:text-8xl mb-2 md:mb-4 drop-shadow-lg leading-tight">
             Erico Samuel & Catarina
           </h1>
-          <p className="font-wedding-elegant text-xl md:text-2xl opacity-90 mb-8">
+          <p className="font-wedding-elegant text-lg md:text-2xl opacity-90 mb-2 md:mb-4">
             Vamos casar!
           </p>
         </div>
 
-        <div className="space-y-6 mb-12">
+        <div className="space-y-6 mb-10 md:mb-14 flex flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center gap-2">
-            <div className="flex items-center justify-center gap-3 text-xl md:text-2xl">
-              <Calendar className="w-6 h-6 text-wedding-rose" />
-              <span className="font-wedding-elegant font-semibold">Faltam:</span>
+            <div className="flex items-center justify-center gap-2 md:gap-3 text-base md:text-xl">
+              <Calendar className="w-5 h-5 md:w-6 md:h-6 text-wedding-rose" />
+              <span className="font-wedding-elegant font-semibold tracking-wide md:tracking-widest uppercase text-white/90">Faltam</span>
             </div>
-            <div className="flex items-center justify-center gap-2 md:gap-4 bg-black/20 rounded-2xl px-6 py-4 mt-2 shadow-lg">
+            <div className="flex items-center justify-center gap-2 md:gap-4 bg-black/30 rounded-2xl px-4 md:px-8 py-3 md:py-5 mt-1 md:mt-3 shadow-lg">
               {/* Dias */}
               <div className="flex flex-col items-center">
-                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{timeLeft.dias}</span>
-                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">dias</span>
+                <span className="text-3xl md:text-6xl lg:text-7xl font-wedding-elegant font-bold text-white drop-shadow-lg leading-none">{timeLeft.dias}</span>
+                <span className="text-[10px] md:text-xs lg:text-sm text-white/80 mt-1 tracking-widest uppercase">dias</span>
               </div>
-              <span className="text-2xl md:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
+              <span className="text-xl md:text-3xl lg:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
               {/* Horas */}
               <div className="flex flex-col items-center">
-                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{String(timeLeft.horas).padStart(2, '0')}</span>
-                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">horas</span>
+                <span className="text-3xl md:text-6xl lg:text-7xl font-wedding-elegant font-bold text-white drop-shadow-lg leading-none">{String(timeLeft.horas).padStart(2, '0')}</span>
+                <span className="text-[10px] md:text-xs lg:text-sm text-white/80 mt-1 tracking-widest uppercase">horas</span>
               </div>
-              <span className="text-2xl md:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
+              <span className="text-xl md:text-3xl lg:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
               {/* Minutos */}
               <div className="flex flex-col items-center">
-                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{String(timeLeft.minutos).padStart(2, '0')}</span>
-                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">min</span>
+                <span className="text-3xl md:text-6xl lg:text-7xl font-wedding-elegant font-bold text-white drop-shadow-lg leading-none">{String(timeLeft.minutos).padStart(2, '0')}</span>
+                <span className="text-[10px] md:text-xs lg:text-sm text-white/80 mt-1 tracking-widest uppercase">min</span>
               </div>
-              <span className="text-2xl md:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
+              <span className="text-xl md:text-3xl lg:text-4xl font-bold text-white/70 mx-1 md:mx-2">:</span>
               {/* Segundos */}
               <div className="flex flex-col items-center">
-                <span className="text-4xl md:text-6xl font-wedding-elegant font-bold text-white drop-shadow-lg">{String(timeLeft.segundos).padStart(2, '0')}</span>
-                <span className="text-xs md:text-sm text-white/80 mt-1 tracking-widest uppercase">seg</span>
+                <span className="text-3xl md:text-6xl lg:text-7xl font-wedding-elegant font-bold text-white drop-shadow-lg leading-none">{String(timeLeft.segundos).padStart(2, '0')}</span>
+                <span className="text-[10px] md:text-xs lg:text-sm text-white/80 mt-1 tracking-widest uppercase">seg</span>
               </div>
             </div>
-            <span className="text-base md:text-lg font-normal opacity-80 mt-3">para a cerimônia!</span>
+            <span className="text-xs md:text-base font-normal opacity-80 mt-2 md:mt-3 tracking-wide">para a cerimônia!</span>
           </div>
-          <div className="flex items-center justify-center gap-3 text-xl md:text-2xl">
-            <MapPin className="w-6 h-6 text-wedding-rose" />
+          <div className="flex items-center justify-center gap-2 md:gap-3 text-base md:text-xl mt-2 md:mt-4">
+            <MapPin className="w-5 h-5 md:w-6 md:h-6 text-wedding-rose" />
             <span className="font-wedding-elegant">Salvador, Bahia</span>
           </div>
         </div>
 
-        <div className="text-center">
-          <p className="font-wedding-script text-3xl md:text-4xl text-wedding-rose-light mb-4">
+        <div className="text-center mt-2 md:mt-4">
+          <p className="font-wedding-script text-2xl md:text-4xl text-wedding-rose-light mb-2 md:mb-4">
             Vamos casar!
           </p>
-          <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg opacity-90 max-w-2xl mx-auto leading-relaxed">
             Sim, é verdade! A gente vai se casar!!! Estamos muito felizes! Estamos nas nuvens e queremos compartilhar com você todo o nosso amor.
           </p>
         </div>
