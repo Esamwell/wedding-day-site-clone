@@ -10,15 +10,24 @@ import { gifts, Gift as GiftType } from "@/lib/gifts";
 const ListaPresentes = () => {
   const { toast } = useToast();
   const [filtroCategoria, setFiltroCategoria] = useState<string>("Todos");
-  const [mostrarComprados, setMostrarComprados] = useState<boolean>(false);
+  const [filtroValor, setFiltroValor] = useState<string>("Todos");
+  const faixasValor = [
+    { label: "Todos", min: 0, max: Infinity },
+    { label: "R$ 80 a R$ 150", min: 80, max: 150 },
+    { label: "R$ 151 a R$ 300", min: 151, max: 300 },
+    { label: "Acima de R$ 300", min: 301, max: Infinity },
+  ];
 
   const categorias = ["Todos", ...Array.from(new Set(gifts.map(p => p.categoria)))];
 
-  const presentesFiltrados = gifts.filter(presente => {
-    const matchCategoria = filtroCategoria === "Todos" || presente.categoria === filtroCategoria;
-    const matchComprado = mostrarComprados || !presente.comprado;
-    return matchCategoria && matchComprado;
-  });
+  const presentesFiltrados = gifts
+    .filter(presente => {
+      const matchCategoria = filtroCategoria === "Todos" || presente.categoria === filtroCategoria;
+      const faixa = faixasValor.find(f => f.label === filtroValor) || faixasValor[0];
+      const matchValor = presente.preco >= faixa.min && presente.preco <= faixa.max;
+      return matchCategoria && matchValor;
+    })
+    .sort((a, b) => a.preco - b.preco);
 
   const handleComprarPresente = async (presente: GiftType) => {
     try {
@@ -84,15 +93,19 @@ const ListaPresentes = () => {
                 </Badge>
               ))}
             </div>
-            <Button
-              variant={mostrarComprados ? "default" : "outline"}
-              size="sm"
-              onClick={() => setMostrarComprados(!mostrarComprados)}
-              className="gap-2"
-            >
-              <Check className="w-4 h-4" />
-              {mostrarComprados ? "Ocultar comprados" : "Mostrar comprados"}
-            </Button>
+            <div className="flex flex-wrap gap-2 items-center">
+              <span className="text-sm font-medium text-foreground">Valor:</span>
+              {faixasValor.map(faixa => (
+                <Badge
+                  key={faixa.label}
+                  variant={filtroValor === faixa.label ? "default" : "secondary"}
+                  className="cursor-pointer hover:bg-primary/80"
+                  onClick={() => setFiltroValor(faixa.label)}
+                >
+                  {faixa.label}
+                </Badge>
+              ))}
+            </div>
           </div>
         </div>
 
