@@ -45,7 +45,7 @@ export const gifts: Gift[] = [
     descricao: "Conjunto completo com 5 peças em alumínio antiaderente",
     preco: 299.90,
     categoria: "Cozinha",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/pots-1957680_1280.jpg",
+    imagemUrl: "https://m.media-amazon.com/images/I/61idC1uINlL.jpg",
     comprado: false,
     loja: "Magazine Luiza",
     link: "#"
@@ -68,7 +68,7 @@ export const gifts: Gift[] = [
     descricao: "100% algodão percal, 4 peças com fronhas extras",
     preco: 189.90,
     categoria: "Quarto",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/bed-1868377_1280.jpg",
+    imagemUrl: "https://3a36cfaa62ac8ba9.cdn.gocache.net/images/produtos/mix_grafite_jogo_2021_1_20210331__g.jpg",
     comprado: true,
     loja: "Americanas",
     link: "#"
@@ -91,7 +91,7 @@ export const gifts: Gift[] = [
     descricao: "Para 12 xícaras com timer e aquecimento automático",
     preco: 159.90,
     categoria: "Eletrodomésticos",
-    imagemUrl: "https://cdn.pixabay.com/photo/2014/12/21/23/28/coffee-machine-579551_1280.png",
+    imagemUrl: "https://electrolux.vtexassets.com/arquivos/ids/214556/Coffee_Machine_ECM30_FrontView_Electrolux_1000x1000_principal.jpg?v=638848332276830000",
     comprado: false,
     loja: "Submarino",
     link: "#"
@@ -102,7 +102,7 @@ export const gifts: Gift[] = [
     descricao: "12 velocidades, copo de vidro, 1200W de potência",
     preco: 249.90,
     categoria: "Eletrodomésticos",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/blender-1239426_1280.jpg",
+    imagemUrl: "https://a-static.mlcdn.com.br/1500x1500/liquidificador-32-litros-15-velocidades-pulsar-1400w-preto-220v-tampa-dosadora-oster-oliq610-220v/starcomercio/34183p/7dc7327a49d8f969cd514c05209f12ff.jpeg",
     comprado: false,
     loja: "Extra",
     link: "#"
@@ -137,7 +137,7 @@ export const gifts: Gift[] = [
     descricao: "Porcelana branca, serviço para 6 pessoas (18 peças)",
     preco: 199.90,
     categoria: "Mesa e Jantar",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/dishes-1957681_1280.jpg",
+    imagemUrl: "https://a-static.mlcdn.com.br/1500x1500/kit-completo-bambu-pp-pratos-bowl-copo-colorido-stripes-lyor/luggari/kitcstripes/d4be91c67a57742498528fd2a3439f48.jpeg",
     comprado: false,
     loja: "Tok&Stok",
     link: "#"
@@ -148,7 +148,7 @@ export const gifts: Gift[] = [
     descricao: "Cristal, ideal para ocasiões especiais.",
     preco: 129.90,
     categoria: "Mesa e Jantar",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/wine-glass-1868376_1280.jpg",
+    imagemUrl: "https://images.tcdn.com.br/img/img_prod/776935/jogo_de_tacas_para_vinho_branco_em_cristal_ecologico_bohemia_gastro_350ml_6_pecas_2195_1_462c090218a13580899f02e4087adbc6.jpeg",
     comprado: false,
     loja: "Americanas",
     link: "#"
@@ -341,7 +341,7 @@ export const gifts: Gift[] = [
     descricao: "Sabonetes, sais de banho e óleos essenciais.",
     preco: 120.00,
     categoria: "Bem-estar",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/04/00/spa-1868945_1280.jpg",
+    imagemUrl: "https://www.floresonline.com.br/media/catalog/product/k/i/kit_spa_relaxante_p_s-alta.jpg",
     comprado: false
   },
   {
@@ -350,7 +350,7 @@ export const gifts: Gift[] = [
     descricao: "Aromatizador elétrico para ambientes.",
     preco: 80.00,
     categoria: "Bem-estar",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/20/15/06/aroma-1993647_1280.jpg",
+    imagemUrl: "https://a-static.mlcdn.com.br/1500x1500/difusor-eletrico-de-ambiente-aroma-terapia-air-essencial-oleo-umidificador-aromatizador-de-ambiente-vedo/vitoriamultivendas/hum5t-2/b5ff8f5dde989e1b738e0c95615afb96.jpeg",
     comprado: false
   },
   {
@@ -359,7 +359,7 @@ export const gifts: Gift[] = [
     descricao: "Vale-experiência em restaurante especial.",
     preco: 250.00,
     categoria: "Experiências",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/16/adult-1867889_1280.jpg",
+    imagemUrl: "https://s2-casaejardim.glbimg.com/D5zjLo5iYGbM2FXW5tYL46lHm8I=/0x0:620x455/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_a0b7e59562ef42049f4e191fe476fe7d/internal_photos/bs/2023/p/m/oqoCq5QFOCvPBimI16zQ/2018-10-26-jantar-romantico.jpeg",
     comprado: false
   },
   {
@@ -368,7 +368,7 @@ export const gifts: Gift[] = [
     descricao: "Experiência inesquecível para o casal.",
     preco: 600.00,
     categoria: "Experiências",
-    imagemUrl: "https://cdn.pixabay.com/photo/2014/09/07/21/52/hot-air-balloon-438480_1280.jpg",
+    imagemUrl: "https://blog.blablacar.com.br/wp-content/uploads/2024/07/passeio-de-balao.jpg",
     comprado: false
   },
   {
@@ -377,7 +377,7 @@ export const gifts: Gift[] = [
     descricao: "Talheres de aço inox para 6 pessoas.",
     preco: 110.00,
     categoria: "Mesa e Jantar",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/cutlery-1239424_1280.jpg",
+    imagemUrl: "https://images.tcdn.com.br/img/img_prod/481109/jogo_talheres_faqueiro_tramontina_aco_inox_24_pecas_buzios_123464492_1_e76b6632eafa36c445debe96b36a253d.jpg",
     comprado: false
   },
   {
@@ -386,7 +386,7 @@ export const gifts: Gift[] = [
     descricao: "Segura, prática e eficiente.",
     preco: 140.00,
     categoria: "Cozinha",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/pots-1957680_1280.jpg",
+    imagemUrl: "https://m.media-amazon.com/images/I/81P4NbJcaVS.jpg",
     comprado: false
   },
   {
@@ -395,7 +395,7 @@ export const gifts: Gift[] = [
     descricao: "Compacto, branco, com timer digital.",
     preco: 399.00,
     categoria: "Eletrodomésticos",
-    imagemUrl: "https://cdn.pixabay.com/photo/2014/12/21/23/28/microwave-579552_1280.png",
+    imagemUrl: "https://m.media-amazon.com/images/I/41kh2TI9f0L._UF894,1000_QL80_.jpg",
     comprado: false
   },
   {
@@ -404,7 +404,7 @@ export const gifts: Gift[] = [
     descricao: "Portátil, fácil de guardar.",
     preco: 180.00,
     categoria: "Eletrodomésticos",
-    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/vacuum-cleaner-1239427_1280.jpg",
+    imagemUrl: "https://lojawap.vtexassets.com/arquivos/ids/175110/aspirador-de-po-wap-high-speed-plus-3-em-1_03.jpg?v=638792981810300000",
     comprado: false
   },
   {
@@ -413,7 +413,7 @@ export const gifts: Gift[] = [
     descricao: "Para café expresso no fogão.",
     preco: 70.00,
     categoria: "Cozinha",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/coffee-1957682_1280.jpg",
+    imagemUrl: "https://images.tcdn.com.br/img/img_prod/865814/cafeteira_italiana_moka_9_xicaras_aluminio_cafe_expresso_450ml_bule_economica_prata_valvula_de_segur_7987_1_f046a1cf15c8abf0ccf9cf9637016eb7.jpg",
     comprado: false
   },
   {
@@ -422,7 +422,7 @@ export const gifts: Gift[] = [
     descricao: "5 peças, fundo triplo.",
     preco: 350.00,
     categoria: "Cozinha",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/pots-1957680_1280.jpg",
+    imagemUrl: "https://images.tcdn.com.br/img/img_prod/329397/conjunto_de_panelas_6pc_inox_tramontina_solar_fundo_triplo_58_1_b5fdd5133edc9ceb760cff9d2d83de7e.jpg",
     comprado: false
   },
   {
@@ -431,7 +431,7 @@ export const gifts: Gift[] = [
     descricao: "Facas, garfos e tábua de corte.",
     preco: 120.00,
     categoria: "Lazer",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/06/02/18/24/barbecue-2367980_1280.jpg",
+    imagemUrl: "https://images.tcdn.com.br/img/img_prod/1337522/kit_churrasco_faca_7_e_acessorios_para_presente_cod_635_373_1_ac21bebac7ba9272a47ddf1089654816.jpg",
     comprado: false
   },
   {
@@ -440,7 +440,7 @@ export const gifts: Gift[] = [
     descricao: "Panela, garfos e suporte.",
     preco: 130.00,
     categoria: "Mesa e Jantar",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/fondue-1957683_1280.jpg",
+    imagemUrl: "https://cdn.leroymerlin.com.br/products/kit_para_fondue_16_pecas_giratorio_aparelho_para_fondue_preto_1566719373_27d8_600x600.jpg",
     comprado: false
   },
   {
@@ -449,7 +449,7 @@ export const gifts: Gift[] = [
     descricao: "Assistente virtual inteligente com controle por voz.",
     preco: 350.00,
     categoria: "Eletrodomésticos",
-    imagemUrl: "https://cdn.pixabay.com/photo/2020/11/13/09/37/alexa-5738856_1280.jpg",
+    imagemUrl: "https://a-static.mlcdn.com.br/800x560/echo-dot-4a-geracao-smart-speaker-com-alexa-amazon/magazineluiza/227363100/147768481bb365a0639aadc257c11b5e.jpg",
     comprado: false
   },
   {
@@ -458,7 +458,7 @@ export const gifts: Gift[] = [
     descricao: "Purificador de água de mesa, com refil.",
     preco: 220.00,
     categoria: "Cozinha",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/water-filter-1957684_1280.jpg",
+    imagemUrl: "https://fujiokadistribuidor.vteximg.com.br/arquivos/ids/399763",
     comprado: false
   },
   {
@@ -467,7 +467,7 @@ export const gifts: Gift[] = [
     descricao: "Fechadura inteligente com senha e biometria.",
     preco: 600.00,
     categoria: "Bem-estar",
-    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/door-lock-1957685_1280.jpg",
+    imagemUrl: "https://backend.intelbras.com/sites/default/files/2019-03/AF-Fechadura-FR-101-700x478pxB.jpg",
     comprado: false
   }
 ]; 
