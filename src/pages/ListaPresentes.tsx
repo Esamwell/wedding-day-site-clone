@@ -174,7 +174,7 @@ const ListaPresentes = () => {
           <h3 className="text-xl font-wedding-elegant text-primary mb-4 text-center">
             Como funciona nossa lista de presentes?
           </h3>
-          <div className="grid md:grid-cols-3 gap-6 text-center">
+          <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
               <Gift className="w-8 h-8 text-primary mx-auto mb-2" />
               <h4 className="font-semibold mb-2">Escolha o presente</h4>
@@ -187,6 +187,13 @@ const ListaPresentes = () => {
               <h4 className="font-semibold mb-2">Compre online</h4>
               <p className="text-sm text-muted-foreground">
                 Clique no botão para ser redirecionado ao pagamento
+              </p>
+            </div>
+            <div>
+              <Heart className="w-8 h-8 text-wedding-rose mx-auto mb-2" />
+              <h4 className="font-semibold mb-2">Finalize e confirme</h4>
+              <p className="text-sm text-muted-foreground">
+                Após o pagamento, clique em "Voltar para o site". O comprovante será enviado para o seu e-mail cadastrado no Mercado Pago.
               </p>
             </div>
             <div>
