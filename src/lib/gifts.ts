@@ -79,7 +79,7 @@ export const gifts: Gift[] = [
     descricao: "Espuma viscoelástica, super confortável.",
     preco: 120.00,
     categoria: "Quarto",
-    imagemUrl: "https://www.colchaocostarica.com.br/produtos/imagens/739-det-Travesseiro-Duoflex-Nasa-Alto-Luxo-Viscoelastico-NS1116.jpg",
+    imagemUrl: "https://m.media-amazon.com/images/I/71LUnQJUrbL.jpg",
     comprado: false,
     loja: "Submarino",
     link: "#"
