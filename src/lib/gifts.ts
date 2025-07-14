@@ -272,5 +272,112 @@ export const gifts: Gift[] = [
     imagemUrl: "https://lojaemporiocasa.cdn.magazord.com.br/img/2024/07/produto/1997/whatsapp-image-2024-07-10-at-17-44-17-1.jpeg?ims=fit-in/600x600/filters:fill(white)",
     comprado: false
   },
-  // ... continue para outros presentes conforme necessário ...
+  {
+    id: "3001",
+    nome: "Kit Spa Relaxante",
+    descricao: "Sabonetes, sais de banho e óleos essenciais.",
+    preco: 120.00,
+    categoria: "Bem-estar",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/04/00/spa-1868945_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3002",
+    nome: "Difusor de Aromas",
+    descricao: "Aromatizador elétrico para ambientes.",
+    preco: 80.00,
+    categoria: "Bem-estar",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/20/15/06/aroma-1993647_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3101",
+    nome: "Jantar Romântico",
+    descricao: "Vale-experiência em restaurante especial.",
+    preco: 250.00,
+    categoria: "Experiências",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/16/adult-1867889_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3102",
+    nome: "Passeio de Balão",
+    descricao: "Experiência inesquecível para o casal.",
+    preco: 600.00,
+    categoria: "Experiências",
+    imagemUrl: "https://cdn.pixabay.com/photo/2014/09/07/21/52/hot-air-balloon-438480_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3201",
+    nome: "Faqueiro Inox 24 peças",
+    descricao: "Talheres de aço inox para 6 pessoas.",
+    preco: 110.00,
+    categoria: "Mesa e Jantar",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/cutlery-1239424_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3202",
+    nome: "Panela de Pressão 4,5L",
+    descricao: "Segura, prática e eficiente.",
+    preco: 140.00,
+    categoria: "Cozinha",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/pots-1957680_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3203",
+    nome: "Micro-ondas 20L",
+    descricao: "Compacto, branco, com timer digital.",
+    preco: 399.00,
+    categoria: "Eletrodomésticos",
+    imagemUrl: "https://cdn.pixabay.com/photo/2014/12/21/23/28/microwave-579552_1280.png",
+    comprado: false
+  },
+  {
+    id: "3204",
+    nome: "Aspirador de Pó Vertical",
+    descricao: "Portátil, fácil de guardar.",
+    preco: 180.00,
+    categoria: "Eletrodomésticos",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/vacuum-cleaner-1239427_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3205",
+    nome: "Cafeteira Italiana",
+    descricao: "Para café expresso no fogão.",
+    preco: 70.00,
+    categoria: "Cozinha",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/coffee-1957682_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3206",
+    nome: "Jogo de Panelas Inox",
+    descricao: "5 peças, fundo triplo.",
+    preco: 350.00,
+    categoria: "Cozinha",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/pots-1957680_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3207",
+    nome: "Kit Churrasco",
+    descricao: "Facas, garfos e tábua de corte.",
+    preco: 120.00,
+    categoria: "Lazer",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/06/02/18/24/barbecue-2367980_1280.jpg",
+    comprado: false
+  },
+  {
+    id: "3208",
+    nome: "Kit Fondue",
+    descricao: "Panela, garfos e suporte.",
+    preco: 130.00,
+    categoria: "Mesa e Jantar",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/fondue-1957683_1280.jpg",
+    comprado: false
+  }
 ]; 
