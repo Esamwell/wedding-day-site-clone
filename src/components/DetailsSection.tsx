@@ -32,7 +32,7 @@ const DetailsSection = () => {
                 <Clock className="w-8 h-8 text-primary" />
                 <div>
                   <h3 className="font-wedding-elegant text-2xl font-semibold text-primary">Horário</h3>
-                  <p className="text-xl text-foreground">Cerimônia às 17h30</p>
+                  <p className="text-xl text-foreground">Cerimônia às 17h</p>
                   <p className="text-lg text-muted-foreground">Festa às 19h30</p>
                 </div>
               </div>
