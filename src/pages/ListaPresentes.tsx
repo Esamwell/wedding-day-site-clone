@@ -101,9 +101,7 @@ const ListaPresentes = () => {
           {presentesFiltrados.map(presente => (
             <Card 
               key={presente.id} 
-              className={`overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${
-                presente.comprado ? 'opacity-60' : ''
-              }`}
+              className="overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
             >
               <div className="relative">
                 <img
@@ -111,14 +109,6 @@ const ListaPresentes = () => {
                   alt={presente.nome}
                   className="w-full h-48 object-cover"
                 />
-                {presente.comprado && (
-                  <div className="absolute inset-0 bg-primary/20 flex items-center justify-center">
-                    <div className="bg-primary text-primary-foreground px-3 py-1 rounded-full flex items-center gap-2">
-                      <Check className="w-4 h-4" />
-                      <span className="text-sm font-medium">Comprado</span>
-                    </div>
-                  </div>
-                )}
                 <Badge className="absolute top-2 right-2" variant="secondary">
                   {presente.categoria}
                 </Badge>
@@ -145,12 +135,11 @@ const ListaPresentes = () => {
                 
                 <Button
                   onClick={() => handleComprarPresente(presente)}
-                  disabled={presente.comprado}
                   className="w-full gap-2"
-                  variant={presente.comprado ? "outline" : "default"}
+                  variant="default"
                 >
                   <ShoppingCart className="w-4 h-4" />
-                  {presente.comprado ? "Já foi comprado" : "Comprar presente"}
+                  Comprar presente
                 </Button>
               </CardContent>
             </Card>
