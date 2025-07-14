@@ -6,6 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import Header from "@/components/Header";
 import { gifts, Gift as GiftType } from "@/lib/gifts";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { useEffect } from "react";
 
 const ListaPresentes = () => {
   const { toast } = useToast();
@@ -54,6 +56,12 @@ const ListaPresentes = () => {
       });
     }
   };
+
+  const [openModal, setOpenModal] = useState(true);
+
+  useEffect(() => {
+    setOpenModal(true);
+  }, []);
 
   return (
     <div className="min-h-screen">
@@ -204,6 +212,44 @@ const ListaPresentes = () => {
         </div>
         </div>
       </div>
+
+      <Dialog open={openModal} onOpenChange={setOpenModal}>
+        <DialogContent className="max-w-lg">
+          <DialogHeader>
+            <DialogTitle className="text-center text-primary text-2xl mb-4">Como funciona nossa lista de presentes?</DialogTitle>
+          </DialogHeader>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+            <div>
+              <Gift className="w-8 h-8 text-primary mx-auto mb-2" />
+              <h4 className="font-semibold mb-2">Escolha o presente</h4>
+              <p className="text-sm text-muted-foreground">
+                Navegue pela nossa lista e escolha o presente que deseja nos dar
+              </p>
+            </div>
+            <div>
+              <ShoppingCart className="w-8 h-8 text-primary mx-auto mb-2" />
+              <h4 className="font-semibold mb-2">Compre online</h4>
+              <p className="text-sm text-muted-foreground">
+                Clique no botão para ser redirecionado ao pagamento
+              </p>
+            </div>
+            <div>
+              <Heart className="w-8 h-8 text-wedding-rose mx-auto mb-2" />
+              <h4 className="font-semibold mb-2">Finalize e confirme</h4>
+              <p className="text-sm text-muted-foreground">
+                Após o pagamento, clique em "Voltar para o site". O comprovante será enviado para o seu e-mail cadastrado no Mercado Pago.
+              </p>
+            </div>
+            <div>
+              <Heart className="w-8 h-8 text-wedding-rose mx-auto mb-2" />
+              <h4 className="font-semibold mb-2">Recebemos com amor</h4>
+              <p className="text-sm text-muted-foreground">
+                O presente será entregue diretamente em nossa casa
+              </p>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
