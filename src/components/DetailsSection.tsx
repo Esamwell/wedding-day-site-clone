@@ -75,7 +75,7 @@ const DetailsSection = () => {
               Dress Code
             </h3>
             <p className="text-lg text-foreground leading-relaxed">
-              Venha com sua roupa mais elegante! Sugerimos trajes sociais e cores claras. 
+              Venha com sua roupa mais elegante! Sugerimos trajes sociais ou esporte fino, com cores claras. 
               Evitem branco e cores muito próximas ao vestido da noiva.
             </p>
           </Card>
