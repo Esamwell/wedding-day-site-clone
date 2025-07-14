@@ -28,7 +28,6 @@ const Footer = () => {
           </div>
           <div className="space-y-2">
             <p>Obrigado por fazer parte da nossa história!</p>
-            <p>Dúvidas? Fale conosco | Política de privacidade</p>
             <p className="flex items-center justify-center gap-1">
               <span>Com carinho,</span>
               <span role="img" aria-label="igreja">💒</span>
