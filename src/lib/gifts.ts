@@ -45,7 +45,7 @@ export const gifts: Gift[] = [
     descricao: "Conjunto completo com 5 peças em alumínio antiaderente",
     preco: 299.90,
     categoria: "Cozinha",
-    imagemUrl: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/pots-1957680_1280.jpg",
     comprado: false,
     loja: "Magazine Luiza",
     link: "#"
@@ -56,7 +56,7 @@ export const gifts: Gift[] = [
     descricao: "10 peças resistentes ao calor, ideal para cozinhar sem riscar as panelas.",
     preco: 89.90,
     categoria: "Cozinha",
-    imagemUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/utensils-1239425_1280.jpg",
     comprado: false,
     loja: "Americanas",
     link: "#"
@@ -68,7 +68,7 @@ export const gifts: Gift[] = [
     descricao: "100% algodão percal, 4 peças com fronhas extras",
     preco: 189.90,
     categoria: "Quarto",
-    imagemUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/bed-1868377_1280.jpg",
     comprado: true,
     loja: "Americanas",
     link: "#"
@@ -79,7 +79,7 @@ export const gifts: Gift[] = [
     descricao: "Espuma viscoelástica, super confortável.",
     preco: 120.00,
     categoria: "Quarto",
-    imagemUrl: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/pillow-1868378_1280.jpg",
     comprado: false,
     loja: "Submarino",
     link: "#"
@@ -91,7 +91,7 @@ export const gifts: Gift[] = [
     descricao: "Para 12 xícaras com timer e aquecimento automático",
     preco: 159.90,
     categoria: "Eletrodomésticos",
-    imagemUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2014/12/21/23/28/coffee-machine-579551_1280.png",
     comprado: false,
     loja: "Submarino",
     link: "#"
@@ -102,7 +102,7 @@ export const gifts: Gift[] = [
     descricao: "12 velocidades, copo de vidro, 1200W de potência",
     preco: 249.90,
     categoria: "Eletrodomésticos",
-    imagemUrl: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/03/05/19/02/blender-1239426_1280.jpg",
     comprado: false,
     loja: "Extra",
     link: "#"
@@ -114,7 +114,7 @@ export const gifts: Gift[] = [
     descricao: "Conjunto com 4 toalhas 100% algodão felpudo",
     preco: 89.90,
     categoria: "Banheiro",
-    imagemUrl: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/towel-1868379_1280.jpg",
     comprado: false,
     loja: "Zara Home",
     link: "#"
@@ -125,7 +125,7 @@ export const gifts: Gift[] = [
     descricao: "3 peças antiderrapantes para banheiro.",
     preco: 59.90,
     categoria: "Banheiro",
-    imagemUrl: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/carpet-1868377_1280.jpg",
     comprado: false,
     loja: "Tok&Stok",
     link: "#"
@@ -137,7 +137,7 @@ export const gifts: Gift[] = [
     descricao: "Porcelana branca, serviço para 6 pessoas (18 peças)",
     preco: 199.90,
     categoria: "Mesa e Jantar",
-    imagemUrl: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2017/01/06/19/15/dishes-1957681_1280.jpg",
     comprado: false,
     loja: "Tok&Stok",
     link: "#"
@@ -148,7 +148,7 @@ export const gifts: Gift[] = [
     descricao: "Cristal, ideal para ocasiões especiais.",
     preco: 129.90,
     categoria: "Mesa e Jantar",
-    imagemUrl: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/wine-glass-1868376_1280.jpg",
     comprado: false,
     loja: "Americanas",
     link: "#"
@@ -160,7 +160,7 @@ export const gifts: Gift[] = [
     descricao: "Ajude na nossa viagem dos sonhos!",
     preco: 100.00,
     categoria: "Lua de Mel",
-    imagemUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/beach-1868375_1280.jpg",
     comprado: false
   },
   {
@@ -169,7 +169,7 @@ export const gifts: Gift[] = [
     descricao: "Ajude na nossa viagem dos sonhos!",
     preco: 200.00,
     categoria: "Lua de Mel",
-    imagemUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/beach-1868375_1280.jpg",
     comprado: false
   },
   {
@@ -178,7 +178,7 @@ export const gifts: Gift[] = [
     descricao: "Ajude na nossa viagem dos sonhos!",
     preco: 500.00,
     categoria: "Lua de Mel",
-    imagemUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80",
+    imagemUrl: "https://cdn.pixabay.com/photo/2016/11/29/09/32/beach-1868375_1280.jpg",
     comprado: false
   },
   {
