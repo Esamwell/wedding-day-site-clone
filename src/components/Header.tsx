@@ -85,7 +85,13 @@ const Header = () => {
           <Button 
             variant="outline" 
             size="sm"
-            onClick={() => scrollToSection('presenca')}
+            onClick={() => {
+              if (location.pathname !== "/") {
+                navigate('/?section=presenca');
+              } else {
+                scrollToSection('presenca');
+              }
+            }}
             className="border-wedding-rose text-wedding-rose hover:bg-wedding-rose-light"
           >
             <Users className="w-4 h-4 mr-2" />
