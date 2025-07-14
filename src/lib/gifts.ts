@@ -162,5 +162,14 @@ export const gifts: Gift[] = [
     categoria: "Teste",
     imagemUrl: "/placeholder.svg",
     comprado: false
+  },
+  {
+    id: "1000",
+    nome: "Presente de Teste 10 centavos",
+    descricao: "Presente para testar pagamentos de valor mínimo.",
+    preco: 0.10,
+    categoria: "Teste",
+    imagemUrl: "/placeholder.svg",
+    comprado: false
   }
 ]; 
