@@ -5,108 +5,43 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import Header from "@/components/Header";
-
-interface PresenteItem {
-  id: string;
-  nome: string;
-  descricao: string;
-  preco: number;
-  categoria: string;
-  imagemUrl: string;
-  comprado: boolean;
-  loja?: string;
-  link?: string;
-}
+import { gifts, Gift as GiftType } from "@/lib/gifts";
 
 const ListaPresentes = () => {
   const { toast } = useToast();
-  const [presentes] = useState<PresenteItem[]>([
-    {
-      id: "1",
-      nome: "Jogo de Panelas Antiaderente",
-      descricao: "Conjunto completo com 5 peças em alumínio antiaderente",
-      preco: 299.90,
-      categoria: "Cozinha",
-      imagemUrl: "/api/placeholder/300/300",
-      comprado: false,
-      loja: "Magazine Luiza",
-      link: "#"
-    },
-    {
-      id: "2",
-      nome: "Jogo de Cama Casal King",
-      descricao: "100% algodão percal, 4 peças com fronhas extras",
-      preco: 189.90,
-      categoria: "Quarto",
-      imagemUrl: "/api/placeholder/300/300",
-      comprado: true,
-      loja: "Americanas",
-      link: "#"
-    },
-    {
-      id: "3",
-      nome: "Cafeteira Elétrica Programável",
-      descricao: "Para 12 xícaras com timer e aquecimento automático",
-      preco: 159.90,
-      categoria: "Eletrodomésticos",
-      imagemUrl: "/api/placeholder/300/300",
-      comprado: false,
-      loja: "Submarino",
-      link: "#"
-    },
-    {
-      id: "4",
-      nome: "Kit Toalhas de Banho",
-      descricao: "Conjunto com 4 toalhas 100% algodão felpudo",
-      preco: 89.90,
-      categoria: "Banheiro",
-      imagemUrl: "/api/placeholder/300/300",
-      comprado: false,
-      loja: "Zara Home",
-      link: "#"
-    },
-    {
-      id: "5",
-      nome: "Liquidificador 3.2L",
-      descricao: "12 velocidades, copo de vidro, 1200W de potência",
-      preco: 249.90,
-      categoria: "Eletrodomésticos",
-      imagemUrl: "/api/placeholder/300/300",
-      comprado: false,
-      loja: "Extra",
-      link: "#"
-    },
-    {
-      id: "6",
-      nome: "Conjunto de Pratos e Bowls",
-      descricao: "Porcelana branca, serviço para 6 pessoas (18 peças)",
-      preco: 199.90,
-      categoria: "Mesa e Jantar",
-      imagemUrl: "/api/placeholder/300/300",
-      comprado: false,
-      loja: "Tok&Stok",
-      link: "#"
-    }
-  ]);
-
   const [filtroCategoria, setFiltroCategoria] = useState<string>("Todos");
   const [mostrarComprados, setMostrarComprados] = useState<boolean>(false);
 
-  const categorias = ["Todos", ...Array.from(new Set(presentes.map(p => p.categoria)))];
+  const categorias = ["Todos", ...Array.from(new Set(gifts.map(p => p.categoria)))];
 
-  const presentesFiltrados = presentes.filter(presente => {
+  const presentesFiltrados = gifts.filter(presente => {
     const matchCategoria = filtroCategoria === "Todos" || presente.categoria === filtroCategoria;
     const matchComprado = mostrarComprados || !presente.comprado;
     return matchCategoria && matchComprado;
   });
 
-  const handleComprarPresente = (presente: PresenteItem) => {
-    if (presente.link && presente.link !== "#") {
-      window.open(presente.link, '_blank');
-    } else {
+  const handleComprarPresente = async (presente: GiftType) => {
+    try {
+      const response = await fetch('http://localhost:3001/create_preference', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ nome: presente.nome, preco: presente.preco, id: presente.id }),
+      });
+      const data = await response.json();
+      if (data.init_point) {
+        window.location.href = data.init_point;
+      } else {
+        toast({
+          title: "Erro ao iniciar pagamento",
+          description: "Tente novamente mais tarde.",
+          variant: "destructive"
+        });
+      }
+    } catch (error) {
       toast({
-        title: "Presente selecionado!",
-        description: `Obrigado por escolher: ${presente.nome}`,
+        title: "Erro ao conectar com o servidor",
+        description: "Tente novamente mais tarde.",
+        variant: "destructive"
       });
     }
   };
