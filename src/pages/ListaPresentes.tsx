@@ -139,11 +139,6 @@ const ListaPresentes = () => {
                   <span className="text-2xl font-bold text-primary">
                     R$ {presente.preco.toFixed(2).replace('.', ',')}
                   </span>
-                  {presente.loja && (
-                    <span className="text-sm text-muted-foreground">
-                      {presente.loja}
-                    </span>
-                  )}
                 </div>
                 
                 <Button
